@@ -43,7 +43,7 @@ page also contains links to binaries for various architectures.
 On Linux systems, X11 libraries are needed to build clipboard access if
 building from source. On Ubuntu you can install these using:
 
-```
+```shell
 sudo apt-get install libxcb1-dev libxcb-render0-dev libxcb-shape0-dev libxcb-xfixes0-dev
 ```
 
