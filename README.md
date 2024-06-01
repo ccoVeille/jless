@@ -5,7 +5,7 @@ replacement for whatever combination of `less`, `jq`, `cat` and your
 editor you currently use for viewing JSON files. It is written in Rust
 and can be installed as a single standalone binary.
 
-[![ci](https://github.com/PaulJuliusMartinez/jless/actions/workflows/ci.yml/badge.svg?branch=master&event=push)](https://github.com/PaulJuliusMartinez/jless/actions/workflows/ci.yml)
+[![CI](https://github.com/PaulJuliusMartinez/jless/actions/workflows/ci.yml/badge.svg?branch=master&event=push)](https://github.com/PaulJuliusMartinez/jless/actions/workflows/ci.yml)
 
 ### Features
 
@@ -26,9 +26,9 @@ You can install `jless` using various package managers:
 
 | Operating System / Package Manager | Command |
 | ---------------------------------- | ------- |
-| macOS - [HomeBrew](https://formulae.brew.sh/formula/jless) | `brew install jless`      |
+| macOS - [Homebrew](https://formulae.brew.sh/formula/jless) | `brew install jless`      |
 | macOS - [MacPorts](https://ports.macports.org/port/jless/) | `sudo port install jless` |
-| Linux - [HomeBrew](https://formulae.brew.sh/formula/jless) | `brew install jless`      |
+| Linux - [Homebrew](https://formulae.brew.sh/formula/jless) | `brew install jless`      |
 | [Arch Linux](https://archlinux.org/packages/extra/x86_64/jless/)     | `pacman -S jless`         |
 | [Void Linux](https://github.com/void-linux/void-packages/tree/master/srcpkgs/jless) | `sudo xbps-install jless` |
 | [NetBSD](https://pkgsrc.se/textproc/jless/)                | `pkgin install jless`     |

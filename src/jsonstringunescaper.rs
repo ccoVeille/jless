@@ -42,7 +42,7 @@ enum DecodedCodepoint {
 //
 // This makes the assumption that the only characters following a '\' are:
 // - single character escapes: "\/bfnrt
-// - a unicode character escape: uxxxx
+// - a Unicode character escape: uxxxx
 //
 // Unicode escapes are exactly four characters, and essentially represent
 // UTF-16 encoded codepoints.

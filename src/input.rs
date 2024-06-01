@@ -17,7 +17,7 @@ pub fn remap_dev_tty_to_stdin() {
     // The readline library we use, rustyline, always gets its input from STDIN.
     // If jless accepts its input from STDIN, then rustyline can't accept input.
     // To fix this, we open up /dev/tty, and remap it to STDIN, as suggested in
-    // this StackOverflow post:
+    // this Stack Overflow post:
     //
     // https://stackoverflow.com/questions/29689034/piped-stdin-and-keyboard-same-time-in-c
     //
