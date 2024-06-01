@@ -24,16 +24,16 @@ and can be installed as a single standalone binary.
 
 You can install `jless` using various package managers:
 
-| Operating System / Package Manager | Command |
-| ---------------------------------- | ------- |
-| macOS - [Homebrew](https://formulae.brew.sh/formula/jless) | `brew install jless`      |
-| macOS - [MacPorts](https://ports.macports.org/port/jless/) | `sudo port install jless` |
-| Linux - [Homebrew](https://formulae.brew.sh/formula/jless) | `brew install jless`      |
-| [Arch Linux](https://archlinux.org/packages/extra/x86_64/jless/)     | `pacman -S jless`         |
+| Operating System / Package Manager                                                  | Command                   |
+|-------------------------------------------------------------------------------------|---------------------------|
+| macOS - [Homebrew](https://formulae.brew.sh/formula/jless)                          | `brew install jless`      |
+| macOS - [MacPorts](https://ports.macports.org/port/jless/)                          | `sudo port install jless` |
+| Linux - [Homebrew](https://formulae.brew.sh/formula/jless)                          | `brew install jless`      |
+| [Arch Linux](https://archlinux.org/packages/extra/x86_64/jless/)                    | `pacman -S jless`         |
 | [Void Linux](https://github.com/void-linux/void-packages/tree/master/srcpkgs/jless) | `sudo xbps-install jless` |
-| [NetBSD](https://pkgsrc.se/textproc/jless/)                | `pkgin install jless`     |
-| [FreeBSD](https://freshports.org/textproc/jless/)          | `pkg install jless`       |
-| From source (Requires [Rust toolchain](https://www.rust-lang.org/tools/install))       | `cargo install jless`       |
+| [NetBSD](https://pkgsrc.se/textproc/jless/)                                         | `pkgin install jless`     |
+| [FreeBSD](https://freshports.org/textproc/jless/)                                   | `pkg install jless`       |
+| From source (Requires [Rust toolchain](https://www.rust-lang.org/tools/install))    | `cargo install jless`     |
 
 The [releases](https://github.com/PaulJuliusMartinez/jless/releases)
 page also contains links to binaries for various architectures.
