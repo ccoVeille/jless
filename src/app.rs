@@ -181,7 +181,7 @@ impl App {
             // If the user hits Ctrl-z, we don't modify state at all, just send SIGSTOP to
             // ourself, then loop around and process the next input.
             if matches!(event, KeyEvent(Key::Ctrl('z'))) {
-                // Restore terminal prior to suspending.
+                // Restore terminal before suspending.
                 let _ = self.screen_writer.stdout.suspend_raw_mode();
                 let _ = write!(self.screen_writer.stdout, "{DISABLE_MOUSE_BUTTON_TRACKING}");
                 let _ = write!(self.screen_writer.stdout, "{ToMainScreen}");

@@ -50,7 +50,7 @@ enum DecodedCodepoint {
 // Unicode codepoints between U+010000 and U+10FFFF (codepoints outside
 // the Basic Multilingual Plane) must be encoded as a surrogate pair.
 //
-// For more information, and a walkthrough of how to convert the surrogate pairs
+// For more information, and a walk-through of how to convert the surrogate pairs
 // back into an actual char, see:
 // https://en.wikipedia.org/wiki/UTF-16#Code_points_from_U+010000_to_U+10FFFF
 fn unescape_json_string(s: &str, escape_control_characters: bool) -> Result<String, UnescapeError> {

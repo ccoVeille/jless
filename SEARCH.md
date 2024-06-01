@@ -29,7 +29,7 @@
   - We will find ALL matches at first
   - Store them in a single vector?
 
-- Do we need to store a index of our last jump anywhere?
+- Do we need to store an index of our last jump anywhere?
   - Multiple matches in a single line
   - Store last match jumped to
 
